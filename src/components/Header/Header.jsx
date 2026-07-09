@@ -3,7 +3,11 @@ import "./Header.css";
 export default function Header() {
   return (
     <header class="header">
-      <a class="brand" href="#home" aria-label="Joe Tire Repair & Service home">
+      <a
+        class="header_logo"
+        href="#home"
+        aria-label="Joe Tire Repair & Service home"
+      >
         <img src="assets/logo.png" alt="Joe Tire Repair and Service logo" />
         <span>Joe Tire</span>
       </a>
