@@ -1,4 +1,5 @@
 import "./Header.css";
+import NavBar from "../Navigation/Navigation";
 
 export default function Header() {
   return (
@@ -11,14 +12,7 @@ export default function Header() {
         <img src="assets/logo.png" alt="Joe Tire Repair and Service logo" />
         <span>Joe Tire</span>
       </a>
-      <nav>
-        <a href="#services">Services</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#location">Location</a>
-        <a class="nav-phone" href="tel:+19158016308">
-          Call Now
-        </a>
-      </nav>
+      <NavBar />
     </header>
   );
 }
