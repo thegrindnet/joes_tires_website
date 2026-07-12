@@ -6,7 +6,7 @@ export default function Navigation() {
       <a href="#services">Services</a>
       <a href="#reviews">Reviews</a>
       <a href="#location">Location</a>
-      <a class="nav-phone" href="tel:+19158016308">
+      <a className="nav-phone" href="tel:+19158016308">
         Call Now
       </a>
     </nav>

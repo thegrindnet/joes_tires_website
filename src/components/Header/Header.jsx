@@ -3,9 +3,9 @@ import NavBar from "../Navigation/Navigation";
 
 export default function Header() {
   return (
-    <header class="header">
+    <header className="header">
       <a
-        class="header_logo"
+        className="header_logo"
         href="#home"
         aria-label="Joe Tire Repair & Service home"
       >
