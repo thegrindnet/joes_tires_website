@@ -1,0 +1,20 @@
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  font-weight: 700;
+}
+.header nav a {
+  opacity: 0.9;
+}
+.header nav a:hover {
+  color: var(--orange);
+  opacity: 1;
+}
+.nav-phone {
+  background: var(--orange);
+  color: #fff !important;
+  padding: 11px 18px;
+  border-radius: 999px;
+  box-shadow: 0 10px 30px rgba(247, 108, 6, 0.35);
+}

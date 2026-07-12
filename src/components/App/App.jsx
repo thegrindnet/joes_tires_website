@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "../Header/Header";
+import Hero from "../Hero/Hero";
 
 export default function App() {
   return (
@@ -7,34 +8,8 @@ export default function App() {
       <Header />
 
       <main id="home">
-        <section class="hero">
-          <div class="hero-bg"></div>
-          <div class="hero-overlay"></div>
-          <div class="hero-content">
-            <p class="eyebrow">Chaparral, New Mexico Tire Repair</p>
-            <h1>Keeping Chaparral Rolling Safely</h1>
-            <p class="hero-text">
-              Fast tire repairs, precision patching, TPMS sensor replacement,
-              air top-offs, expert mounting, and quality used tires at honest
-              prices.
-            </p>
-            <div class="hero-actions">
-              <a class="btn primary" href="tel:+19158016308">
-                Call Now: (915) 801-6308
-              </a>
-              <a class="btn secondary" href="#services">
-                View Services
-              </a>
-            </div>
-            <div class="trust-row">
-              <span>✓ Fast Service</span>
-              <span>✓ Honest Prices</span>
-              <span>✓ Quality Used Tires</span>
-            </div>
-          </div>
-        </section>
-
-        <section class="intro section">
+        <Hero />
+        {/* <section class="intro section">
           <div class="container two-col">
             <div>
               <p class="eyebrow dark">Tire Service You Can Trust</p>
@@ -63,9 +38,9 @@ export default function App() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="services" class="section services">
+        {/* <section id="services" class="section services">
           <div class="container">
             <div class="section-heading">
               <p class="eyebrow dark">Our Services</p>
@@ -116,9 +91,9 @@ export default function App() {
               </article>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section class="section black-band">
+        {/* <section class="section black-band">
           <div class="container two-col reverse-mobile">
             <div class="photo-stack">
               <img
@@ -139,9 +114,9 @@ export default function App() {
               </ul>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="reviews" class="section reviews">
+        {/* <section id="reviews" class="section reviews">
           <div class="container">
             <div class="section-heading">
               <p class="eyebrow dark">Customer Reviews</p>
@@ -191,9 +166,9 @@ export default function App() {
               </article>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="location" class="section location">
+        {/* <section id="location" class="section location">
           <div class="container location-grid">
             <div class="contact-card">
               <p class="eyebrow dark">Visit or Call</p>
@@ -223,9 +198,9 @@ export default function App() {
               ></iframe>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section class="cta">
+        {/* <section class="cta">
           <div class="container cta-inner">
             <h2>Need tire service today?</h2>
             <p>
@@ -236,10 +211,10 @@ export default function App() {
               Call Now
             </a>
           </div>
-        </section>
+        </section> */}
       </main>
 
-      <footer>
+      {/* <footer>
         <div class="container footer-grid">
           <div>
             <img
@@ -264,7 +239,7 @@ export default function App() {
             <p>Mon-Fri: 8AM-5PM Saturday: 8AM-3PM Sunday: Closed</p>
           </div>
         </div>
-      </footer>
+      </footer> */}
 
       {/* <a class="mobile-call" href="tel:+19158016308">Call Now: (915) 801-6308</a> */}
     </div>
