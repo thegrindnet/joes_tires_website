@@ -1,5 +1,6 @@
 import "./Header.css";
 import NavBar from "../Navigation/Navigation";
+import logo from "../../assets/logo.png";
 
 export default function Header() {
   return (
@@ -9,8 +10,11 @@ export default function Header() {
         href="#home"
         aria-label="Joe Tire Repair & Service home"
       >
-        <img src="assets/logo.png" alt="Joe Tire Repair and Service logo" />
-        <span>Joe Tire</span>
+        <img
+          className="header__logo-image"
+          src={logo}
+          alt="Joe Tire Repair and Service logo"
+        />
       </a>
       <NavBar />
     </header>

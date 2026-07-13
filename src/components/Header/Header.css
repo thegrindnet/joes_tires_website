@@ -43,3 +43,8 @@
   color: var(--orange);
   opacity: 1;
 }
+
+.header__logo-image {
+  height: 75px;
+  aspect-ratio: 1;
+}
