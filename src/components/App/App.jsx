@@ -11,58 +11,6 @@ export default function App() {
       <main id="home">
         <Hero />
         <Services />
-        {/* <section id="services" class="section services">
-          <div class="container">
-            <div class="section-heading">
-              <p class="eyebrow dark">Our Services</p>
-              <h2>Fast, affordable tire solutions</h2>
-              <p>Simple service, clear pricing, and work done right.</p>
-            </div>
-            <div class="service-grid">
-              <article class="service-card">
-                <span>🛞</span>
-                <h3>Flat Tire Repair</h3>
-                <p>
-                  Quick flat repairs to help you safely get back on the road.
-                </p>
-              </article>
-              <article class="service-card">
-                <span>🔧</span>
-                <h3>Precision Patching</h3>
-                <p>
-                  Professional internal tire patching for longer-lasting
-                  repairs.
-                </p>
-              </article>
-              <article class="service-card">
-                <span>📟</span>
-                <h3>Sensor Replacement</h3>
-                <p>TPMS sensor replacement and tire pressure support.</p>
-              </article>
-              <article class="service-card">
-                <span>💨</span>
-                <h3>Air Top-Offs</h3>
-                <p>
-                  Proper tire pressure checks and air top-offs for safer
-                  driving.
-                </p>
-              </article>
-              <article class="service-card">
-                <span>💵</span>
-                <h3>Used Tires</h3>
-                <p>
-                  Quality used tires at affordable prices for budget-conscious
-                  drivers.
-                </p>
-              </article>
-              <article class="service-card">
-                <span>⚙️</span>
-                <h3>Mounting & Installation</h3>
-                <p>Expert tire mounting with careful, dependable service.</p>
-              </article>
-            </div>
-          </div>
-        </section> */}
 
         {/* <section class="section black-band">
           <div class="container two-col reverse-mobile">
