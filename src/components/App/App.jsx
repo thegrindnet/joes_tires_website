@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
+import Services from "../Services/Services";
 
 export default function App() {
   return (
@@ -9,37 +10,7 @@ export default function App() {
 
       <main id="home">
         <Hero />
-        {/* <section class="intro section">
-          <div class="container two-col">
-            <div>
-              <p class="eyebrow dark">Tire Service You Can Trust</p>
-              <h2>Repair first. Replace only when needed.</h2>
-              <p>
-                At Joe Tire Repair & Service, we keep you rolling safely. From
-                quick flat repairs and precision patching to sensor replacement
-                and air top-offs, our team handles the details so you do not
-                have to.
-              </p>
-              <p>
-                Looking for a deal? We stock a wide selection of quality used
-                tires to get you back on the road without the premium price tag.
-                Expect fast service, expert mounting, and honest advice every
-                time.
-              </p>
-            </div>
-            <div class="image-card">
-              <img
-                src="assets/shop-2.jpg"
-                alt="Joe Tire Repair and Service shop exterior in Chaparral New Mexico"
-              />
-              <div class="floating-card">
-                <strong>Need tire help today?</strong>
-                <span>Call us and get back on the road.</span>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
+        <Services />
         {/* <section id="services" class="section services">
           <div class="container">
             <div class="section-heading">
