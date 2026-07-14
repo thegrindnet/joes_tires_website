@@ -1,14 +1,12 @@
 import "./Checklist.css";
+import shop1 from "../../assets/shop-1.png";
 
 export default function Checklist() {
   return (
-    <section class="section black-band">
+    <section className="section black-band">
       <div className="container two-col reverse-mobile">
         <div className="photo-stack">
-          <img
-            src="assets/shop-1.jpg"
-            alt="Joe Tire Repair and Service business photo"
-          />
+          <img src={shop1} alt="Joe Tire Repair and Service business photo" />
         </div>
         <div>
           <p className="eyebrow orange">Why Choose Joe Tire?</p>
