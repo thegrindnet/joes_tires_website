@@ -1,5 +1,6 @@
 import "./Services.css";
 import image2 from "../../assets/shop-2.png";
+import tire from "../../assets/tire.png";
 
 export default function Services() {
   return (
@@ -44,7 +45,9 @@ export default function Services() {
           </div>
           <div class="service-grid">
             <article class="service-card">
-              <span>🛞</span>
+              <span>
+                <img src={tire} className="service__tire"></img>
+              </span>
               <h3>Flat Tire Repair</h3>
               <p>Quick flat repairs to help you safely get back on the road.</p>
             </article>
