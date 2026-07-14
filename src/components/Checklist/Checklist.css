@@ -1,0 +1,46 @@
+.black-band {
+  background: #000;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.black-band:before {
+  content: "TIRE SERVICE";
+  position: absolute;
+  left: -20px;
+  top: 10px;
+  font-family: "Bebas Neue";
+  font-size: 12rem;
+  color: #fff;
+  opacity: 0.035;
+}
+.photo-stack img {
+  border-radius: 28px;
+  border: 6px solid rgba(255, 255, 255, 0.12);
+  height: 480px;
+  width: 100%;
+  object-fit: cover;
+}
+.black-band h2 {
+  color: #fff;
+}
+.check-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  padding: 0;
+  margin: 28px 0 0;
+  list-style: none;
+}
+.check-list li {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 14px;
+  font-weight: 700;
+}
+.check-list li:before {
+  content: "✓";
+  color: var(--orange);
+  margin-right: 8px;
+}

@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
 import Services from "../Services/Services";
+import Checklist from "../Checklist/Checklist";
 
 export default function App() {
   return (
@@ -11,29 +12,7 @@ export default function App() {
       <main id="home">
         <Hero />
         <Services />
-
-        {/* <section class="section black-band">
-          <div class="container two-col reverse-mobile">
-            <div class="photo-stack">
-              <img
-                src="assets/shop-1.jpg"
-                alt="Joe Tire Repair and Service business photo"
-              />
-            </div>
-            <div>
-              <p class="eyebrow orange">Why Choose Joe Tire?</p>
-              <h2>Local service with honest advice.</h2>
-              <ul class="check-list">
-                <li>Fast turnaround</li>
-                <li>Affordable quality used tires</li>
-                <li>Friendly local service</li>
-                <li>Experienced tire technicians</li>
-                <li>Professional repair and mounting</li>
-                <li>Safety-first recommendations</li>
-              </ul>
-            </div>
-          </div>
-        </section> */}
+        <Checklist />
 
         {/* <section id="reviews" class="section reviews">
           <div class="container">
