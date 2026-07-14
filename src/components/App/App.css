@@ -67,28 +67,6 @@ h2 {
   backdrop-filter: blur(8px);
 }
 
-footer {
-  background: #000;
-  color: #fff;
-  padding: 60px 0 90px;
-}
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
-  gap: 34px;
-}
-.footer-logo {
-  width: 110px;
-  margin-bottom: 14px;
-}
-footer p {
-  color: #d8d8d8;
-  line-height: 1.7;
-}
-footer h3 {
-  color: var(--orange);
-  margin-bottom: 12px;
-}
 .mobile-call {
   display: none;
   position: fixed;
